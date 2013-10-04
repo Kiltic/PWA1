@@ -1,6 +1,6 @@
 /*  Connor Healy
-Date: 9/2/2013
-Assignment: Goal1: Assignment: The Duel
+ Date: 9/2/2013
+ Assignment: Goal1: Assignment: The Duel
  */
 
 (function(){
