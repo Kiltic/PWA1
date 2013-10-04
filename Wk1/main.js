@@ -1,11 +1,13 @@
 /*  Connor Healy
- Date: 9/2/2013
- Assignment: Goal1: Assignment: The Duel
+Date: 9/4/2013
+Assignment: Goal1: Assignment: The Duel
  */
 
+
+//self-executing function
 (function(){
 
-    console.log("FIGHT Connor");
+    //console.log("FIGHT Connor");
     //player name
     var playerOneName = "Spiderman";
     var playerTwoName = "Batman";
@@ -18,6 +20,7 @@
     var playerOneHealth = 100;
     var playerTwoHealth = 100;
 
+    //round number
     var round= 0;
 
     function fight(){
@@ -56,10 +59,12 @@
 
     };
 
+    //winnerCheck function
     function winnerCheck (){
-        console.log("in WCFN");
+        //console.log("in WCFN");
         var result="no winner";
 
+        //if/else/if statement
         if(playerOneHealth<1 && playerTwoHealth<1){
             result="You both Die";
 
@@ -69,11 +74,14 @@
             result=playerOneName+" WINS!!!"
         };
 
+        //returns result
         return result;
 
     };
 
     console.log("program starts");
+
+    //start of program
     fight();
 
 })();
